@@ -1,14 +1,6 @@
 from framework.views import View
 
 
-class DefaultPage(View):
-    def get(self, request):
-        return 'Успех GET DefaultPage'
-
-    def post(self, request):
-        return 'Успех POST DefaultPage'
-
-
 class HomePage(View):
 
     def get(self, request):

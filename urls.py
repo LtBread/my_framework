@@ -1,8 +1,7 @@
 from framework.url import Url
-from views import DefaultPage, HomePage, DarkPage
+from views import HomePage, DarkPage
 
 my_urls = [
-    Url('/', DefaultPage),
     Url('/homepage', HomePage),
     Url('/darkpage', DarkPage)
 ]
